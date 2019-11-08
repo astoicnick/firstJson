@@ -1,7 +1,7 @@
 import requests as r
 import json
 
-API_KEY = "AIzaSyAIwkdZVfZyaRZOpesC6LstRCM4yER2qIk"
+API_KEY = "XXXXX"
 KEYWORD = "Rick and Morty"
 skywalker = (r.get("https://www.googleapis.com/youtube/v3/search?part=snippet&q="+ KEYWORD +"&key="+API_KEY)).json()
 
